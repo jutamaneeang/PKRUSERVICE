@@ -38,7 +38,7 @@
 		B12379711F2AE10A00E44607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12379741F2AE10A00E44607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12379761F2AE10A00E44607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B12379921F2AF57200E44607 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B12379921F2AF57200E44607 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
 		B12379A21F2B198F00E44607 /* PKRU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PKRU.png; sourceTree = "<group>"; };
 		B12379A41F2B19B100E44607 /* cute1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute1.jpg; sourceTree = "<group>"; };
 		B12379A61F2B19BF00E44607 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG.jpg; sourceTree = "<group>"; };
@@ -70,7 +70,6 @@
 		B123795E1F2AE10A00E44607 = {
 			isa = PBXGroup;
 			children = (
-				B12379921F2AF57200E44607 /* SignUpViewController.swift */,
 				B12379691F2AE10A00E44607 /* PKRUService */,
 				B12379681F2AE10A00E44607 /* Products */,
 			);
@@ -103,6 +102,7 @@
 				B12379B01F2B1AA100E44607 /* ic_save.png */,
 				B12379AA1F2B1A8200E44607 /* ic_exit_to_app.png */,
 				B12379A61F2B19BF00E44607 /* BG.jpg */,
+				B12379921F2AF57200E44607 /* SignUpViewController.swift */,
 				B123796C1F2AE10A00E44607 /* ViewController.swift */,
 				B123796E1F2AE10A00E44607 /* Main.storyboard */,
 				B12379711F2AE10A00E44607 /* Assets.xcassets */,
