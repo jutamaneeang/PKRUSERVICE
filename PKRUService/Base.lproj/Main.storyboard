@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PKRUService" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,72 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gk4-54-yVy">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <color key="backgroundColor" red="0.95069241223933709" green="0.97356551885604858" blue="0.50227168035346026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Amx-8C-x9p">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Main Screen" id="E7S-CI-HpZ"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PKRU.png" translatesAutoresizingMaskIntoConstraints="NO" id="HLh-JN-PdA">
+                                <rect key="frame" x="105" y="94" width="164" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="223" id="r6T-U5-63w"/>
+                                    <constraint firstAttribute="width" constant="164" id="yxe-Yb-Jgu"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QNo-j8-uBj">
+                                <rect key="frame" x="68" y="362" width="240" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="DTL-Um-fuv"/>
+                                    <constraint firstAttribute="width" constant="240" id="vpN-Ad-vU2"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c1z-TJ-TM6">
+                                <rect key="frame" x="67.5" y="417" width="240" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NkR-xP-owb"/>
+                                    <constraint firstAttribute="width" constant="240" id="toc-Nq-kXg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gk4-54-yVy" secondAttribute="bottom" id="0Kf-YD-qBj"/>
+                            <constraint firstItem="c1z-TJ-TM6" firstAttribute="top" secondItem="QNo-j8-uBj" secondAttribute="bottom" constant="25" id="4Je-l7-OVe"/>
+                            <constraint firstItem="Amx-8C-x9p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8ru-Sf-eqy"/>
+                            <constraint firstAttribute="trailing" secondItem="Amx-8C-x9p" secondAttribute="trailing" id="EIW-2r-MQv"/>
+                            <constraint firstItem="QNo-j8-uBj" firstAttribute="top" secondItem="HLh-JN-PdA" secondAttribute="bottom" constant="45" id="FQ7-Od-VSD"/>
+                            <constraint firstItem="QNo-j8-uBj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jjl-S7-coZ"/>
+                            <constraint firstItem="c1z-TJ-TM6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P1f-AX-cnK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gk4-54-yVy" secondAttribute="trailing" id="Qp6-3M-lfl"/>
+                            <constraint firstItem="gk4-54-yVy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="rD8-sE-FU3"/>
+                            <constraint firstItem="gk4-54-yVy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rrL-0B-EWz"/>
+                            <constraint firstItem="Amx-8C-x9p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="udD-fw-wgg"/>
+                            <constraint firstItem="HLh-JN-PdA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yRy-ik-UfO"/>
+                            <constraint firstItem="HLh-JN-PdA" firstAttribute="top" secondItem="Amx-8C-x9p" secondAttribute="bottom" constant="30" id="yXf-v0-kHQ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BG.jpg" width="850" height="579"/>
+        <image name="PKRU.png" width="280" height="358"/>
+    </resources>
 </document>
