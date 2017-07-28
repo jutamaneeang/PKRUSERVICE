@@ -20,10 +20,14 @@
 		B12379891F2AF45000E44607 /* ic_group_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12379861F2AF45000E44607 /* ic_group_add_2x.png */; };
 		B123798A1F2AF45000E44607 /* ic_group_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12379871F2AF45000E44607 /* ic_group_add_3x.png */; };
 		B123798B1F2AF45000E44607 /* ic_group_add.png in Resources */ = {isa = PBXBuildFile; fileRef = B12379881F2AF45000E44607 /* ic_group_add.png */; };
-		B123798F1F2AF53A00E44607 /* ic_verified_user_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B123798C1F2AF53A00E44607 /* ic_verified_user_2x.png */; };
-		B12379901F2AF53A00E44607 /* ic_verified_user_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B123798D1F2AF53A00E44607 /* ic_verified_user_3x.png */; };
-		B12379911F2AF53A00E44607 /* ic_verified_user.png in Resources */ = {isa = PBXBuildFile; fileRef = B123798E1F2AF53A00E44607 /* ic_verified_user.png */; };
 		B12379931F2AF57200E44607 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12379921F2AF57200E44607 /* SignUpViewController.swift */; };
+		B12379971F2AF77000E44607 /* ic_keyboard_backspace_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12379941F2AF77000E44607 /* ic_keyboard_backspace_2x.png */; };
+		B12379981F2AF77000E44607 /* ic_keyboard_backspace_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B12379951F2AF77000E44607 /* ic_keyboard_backspace_3x.png */; };
+		B12379991F2AF77000E44607 /* ic_keyboard_backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = B12379961F2AF77000E44607 /* ic_keyboard_backspace.png */; };
+		B123799B1F2B16F800E44607 /* cute1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B123799A1F2B16F800E44607 /* cute1.jpg */; };
+		B123799F1F2B182200E44607 /* ic_save_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B123799C1F2B182200E44607 /* ic_save_2x.png */; };
+		B12379A01F2B182200E44607 /* ic_save_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B123799D1F2B182200E44607 /* ic_save_3x.png */; };
+		B12379A11F2B182200E44607 /* ic_save.png in Resources */ = {isa = PBXBuildFile; fileRef = B123799E1F2B182200E44607 /* ic_save.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +46,14 @@
 		B12379861F2AF45000E44607 /* ic_group_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_2x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_2x.png; sourceTree = "<group>"; };
 		B12379871F2AF45000E44607 /* ic_group_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add_3x.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add_3x.png; sourceTree = "<group>"; };
 		B12379881F2AF45000E44607 /* ic_group_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_group_add.png; path = ../../../../Downloads/ic_group_add_black_24dp/ios/ic_group_add.imageset/ic_group_add.png; sourceTree = "<group>"; };
-		B123798C1F2AF53A00E44607 /* ic_verified_user_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_verified_user_2x.png; path = ../../../../Downloads/ic_verified_user_black_24dp/ios/ic_verified_user.imageset/ic_verified_user_2x.png; sourceTree = "<group>"; };
-		B123798D1F2AF53A00E44607 /* ic_verified_user_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_verified_user_3x.png; path = ../../../../Downloads/ic_verified_user_black_24dp/ios/ic_verified_user.imageset/ic_verified_user_3x.png; sourceTree = "<group>"; };
-		B123798E1F2AF53A00E44607 /* ic_verified_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_verified_user.png; path = ../../../../Downloads/ic_verified_user_black_24dp/ios/ic_verified_user.imageset/ic_verified_user.png; sourceTree = "<group>"; };
 		B12379921F2AF57200E44607 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B12379941F2AF77000E44607 /* ic_keyboard_backspace_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_backspace_2x.png; path = ../../../../Downloads/ic_keyboard_backspace_black_24dp/ios/ic_keyboard_backspace.imageset/ic_keyboard_backspace_2x.png; sourceTree = "<group>"; };
+		B12379951F2AF77000E44607 /* ic_keyboard_backspace_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_backspace_3x.png; path = ../../../../Downloads/ic_keyboard_backspace_black_24dp/ios/ic_keyboard_backspace.imageset/ic_keyboard_backspace_3x.png; sourceTree = "<group>"; };
+		B12379961F2AF77000E44607 /* ic_keyboard_backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_backspace.png; path = ../../../../Downloads/ic_keyboard_backspace_black_24dp/ios/ic_keyboard_backspace.imageset/ic_keyboard_backspace.png; sourceTree = "<group>"; };
+		B123799A1F2B16F800E44607 /* cute1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute1.jpg; path = ../../../../Desktop/cute1.jpg; sourceTree = "<group>"; };
+		B123799C1F2B182200E44607 /* ic_save_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_2x.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save_2x.png; sourceTree = "<group>"; };
+		B123799D1F2B182200E44607 /* ic_save_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save_3x.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save_3x.png; sourceTree = "<group>"; };
+		B123799E1F2B182200E44607 /* ic_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_save.png; path = ../../../../Downloads/ic_save_black_24dp/ios/ic_save.imageset/ic_save.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +93,17 @@
 				B12379881F2AF45000E44607 /* ic_group_add.png */,
 				B12379811F2AF38700E44607 /* ic_exit_to_app_3x.png */,
 				B12379821F2AF38700E44607 /* ic_exit_to_app.png */,
+				B12379941F2AF77000E44607 /* ic_keyboard_backspace_2x.png */,
+				B123799A1F2B16F800E44607 /* cute1.jpg */,
+				B12379951F2AF77000E44607 /* ic_keyboard_backspace_3x.png */,
+				B12379961F2AF77000E44607 /* ic_keyboard_backspace.png */,
 				B123796A1F2AE10A00E44607 /* AppDelegate.swift */,
 				B123797C1F2AE26400E44607 /* PKRU.png */,
 				B123796C1F2AE10A00E44607 /* ViewController.swift */,
-				B123798C1F2AF53A00E44607 /* ic_verified_user_2x.png */,
-				B123798D1F2AF53A00E44607 /* ic_verified_user_3x.png */,
-				B123798E1F2AF53A00E44607 /* ic_verified_user.png */,
 				B123797E1F2AE43000E44607 /* BG.jpg */,
+				B123799C1F2B182200E44607 /* ic_save_2x.png */,
+				B123799D1F2B182200E44607 /* ic_save_3x.png */,
+				B123799E1F2B182200E44607 /* ic_save.png */,
 				B123796E1F2AE10A00E44607 /* Main.storyboard */,
 				B12379711F2AE10A00E44607 /* Assets.xcassets */,
 				B12379731F2AE10A00E44607 /* LaunchScreen.storyboard */,
@@ -159,19 +171,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12379971F2AF77000E44607 /* ic_keyboard_backspace_2x.png in Resources */,
 				B123797F1F2AE43000E44607 /* BG.jpg in Resources */,
 				B12379751F2AE10A00E44607 /* LaunchScreen.storyboard in Resources */,
 				B123798A1F2AF45000E44607 /* ic_group_add_3x.png in Resources */,
+				B123799F1F2B182200E44607 /* ic_save_2x.png in Resources */,
+				B12379991F2AF77000E44607 /* ic_keyboard_backspace.png in Resources */,
 				B12379841F2AF38700E44607 /* ic_exit_to_app_3x.png in Resources */,
 				B123798B1F2AF45000E44607 /* ic_group_add.png in Resources */,
+				B12379A01F2B182200E44607 /* ic_save_3x.png in Resources */,
+				B12379981F2AF77000E44607 /* ic_keyboard_backspace_3x.png in Resources */,
+				B12379A11F2B182200E44607 /* ic_save.png in Resources */,
 				B12379831F2AF38700E44607 /* ic_exit_to_app_2x.png in Resources */,
-				B12379911F2AF53A00E44607 /* ic_verified_user.png in Resources */,
 				B12379851F2AF38700E44607 /* ic_exit_to_app.png in Resources */,
 				B123797D1F2AE26400E44607 /* PKRU.png in Resources */,
 				B12379721F2AE10A00E44607 /* Assets.xcassets in Resources */,
+				B123799B1F2B16F800E44607 /* cute1.jpg in Resources */,
 				B12379701F2AE10A00E44607 /* Main.storyboard in Resources */,
-				B123798F1F2AF53A00E44607 /* ic_verified_user_2x.png in Resources */,
-				B12379901F2AF53A00E44607 /* ic_verified_user_3x.png in Resources */,
 				B12379891F2AF45000E44607 /* ic_group_add_2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
